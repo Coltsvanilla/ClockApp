@@ -27,7 +27,8 @@ namespace ClockApp
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            TimeLabel.Content = "time";
+            DateTime dt = DateTime.Now;
+            TimeLabel.Content = "time:" + dt;
         }
     }
 }

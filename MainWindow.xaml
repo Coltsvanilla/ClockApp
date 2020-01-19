@@ -6,13 +6,13 @@
         xmlns:local="clr-namespace:ClockApp"
         mc:Ignorable="d"
         Title="Clock" Height="450" Width="800">
-    <Grid>
+    <Grid Margin="0,0,0.333,-0.333">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0*"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Button x:Name="button" Grid.ColumnSpan="2" Content="押してね" HorizontalAlignment="Left" Height="20" Margin="327,357,0,0" VerticalAlignment="Top" Width="118" Click="Button_Click"/>
-        <Label x:Name="TimeLabel" Grid.ColumnSpan="2" Content="" HorizontalAlignment="Left" Height="29" Margin="360,216,0,0" VerticalAlignment="Top" Width="59" FontSize="16"/>
+        <Label x:Name="TimeLabel" Grid.ColumnSpan="2" Content="" HorizontalAlignment="Left" Height="29" Margin="271,219,0,0" VerticalAlignment="Top" Width="228" FontSize="16"/>
 
     </Grid>
 </Window>
